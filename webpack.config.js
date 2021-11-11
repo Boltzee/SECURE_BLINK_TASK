@@ -1,35 +1,53 @@
 const path = require("path");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
-	entry: path.resolve(__dirname, "src", "index.jsx"),
+	entry: [
+		"regenerator-runtime/runtime.js",
+		path.resolve(__dirname, "src", "index.jsx"),
+	],
+	devtool: "source-map",
 	output: {
-		path: path.resolve(__dirname, "output"),
+		path: path.resolve(__dirname, "dist"),
 		filename: "bundle.js",
 	},
 	resolve: {
-		extensions: ["js", "jsx"],
+		extensions: [".js", ".jsx"],
 	},
 	module: {
 		rules: [
 			{
-				test: /\.jsx/,
+				test: /\.(jsx|js)$/,
 				exclude: "/node_modules",
 				use: {
 					loader: "babel-loader",
 					options: {
-						presets: ["@babel/preset-react", "@babel/preset-env"],
+						presets: ["@babel/preset-env", "@babel/preset-react"],
 					},
 				},
 			},
 			{
-				test: /\.scss/,
+				test: /\.css$/i,
 				exclude: "/node_modules",
 				use: ["style-loader", "css-loader", "postcss-loader"], // Note that postcss loader must come before sass-loader
 			},
 		],
 	},
+	plugins: [
+		new HtmlWebpackPlugin({
+			template: "./src/index.html",
+		}),
+	],
 	devServer: {
-		contentBase: "./src",
+		static: {
+			directory: path.join(__dirname, "dist"),
+		},
+		client: {
+			overlay: {
+				warnings: false,
+				errors: true,
+			},
+		},
 		port: 8080,
 		hot: true,
 	},

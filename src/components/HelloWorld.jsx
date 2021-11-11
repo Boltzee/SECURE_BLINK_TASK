@@ -1,4 +1,5 @@
 import React from "react";
+import Style from "./HelloWorld.component.css";
 
 const HelloWorld = () => {
 	return (

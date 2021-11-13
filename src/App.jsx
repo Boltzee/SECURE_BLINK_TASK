@@ -5,6 +5,7 @@ import { getAuth, onAuthStateChanged } from "firebase/auth";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Homepage from "./components/homepage/Homepage";
 import Not_found from "./components/not_found/Not_found";
+import "./App.css";
 
 const auth = getAuth();
 

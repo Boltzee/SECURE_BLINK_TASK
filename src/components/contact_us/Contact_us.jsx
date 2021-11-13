@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Form, Col, InputGroup, Button } from "react-bootstrap";
+import Style from "./Contact_us.module.css";
 
 function FormExample() {
     const [validated, setValidated] = useState(false);

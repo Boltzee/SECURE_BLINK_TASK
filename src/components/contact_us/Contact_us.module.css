@@ -1,3 +1,133 @@
 .form_submit {
     border-radius: 0.5rem;
+    width: 33%;
+    font-size: small !important;
+    font-style: italic;
+}
+
+.form_heading {
+    text-align: center;
+    margin-bottom: 2rem;
+    width: 70%;
+    font-weight: bold;
+    color: #201f23;
+    margin-left: 15%;
+}
+
+.contact_info {
+    margin-bottom: 0.7rem;
+    font-weight: bold;
+    font-size: small;
+}
+
+.social_media_list {
+    display: flex;
+    justify-content: space-between;
+    width: 63%;
+    min-width: 177px;
+}
+
+.contact_heading {
+    font: normal normal bold Noto Sans;
+    font-weight: bold;
+    margin-bottom: 3rem;
+    color: #201f23;
+}
+
+.align_left {
+    position: relative;
+    left: -10px;
+}
+
+.contact_us_row {
+    padding: 2.8rem 0;
+    padding-bottom: 1rem;
+}
+
+.contact_us_cont {
+    background-color: #f8f9fb;
+    padding: 0 10rem !important;
+}
+
+.button_surround {
+    display: flex;
+    justify-content: center;
+}
+
+.input_field {
+    border-radius: 0 !important;
+    border: none !important;
+    padding-left: 0 !important;
+    padding-bottom: 4px !important;
+    border-bottom: 1px solid #01cb63 !important ;
+    background-color: transparent !important;
+    font-size: small !important;
+    font-style: italic !important;
+}
+
+.input_field:focus,
+.input_field:active {
+    box-shadow: none !important;
+}
+
+.input_field2 {
+    border: 0 !important;
+    font-size: small !important;
+    font-style: italic !important;
+    border-radius: 2px !important;
+    border: 1px solid #01cb63 !important;
+    background-color: transparent !important;
+}
+
+.input_field2:focus {
+    box-shadow: none !important;
+}
+
+::placeholder {
+    font: italic normal normal 22px/31px Noto Sans;
+    letter-spacing: 0px;
+    color: #86919d;
+    font-size: x-small;
+}
+
+@media (max-width: 926px) {
+    .contact_us_cont {
+        padding: 0 0.75rem !important;
+    }
+}
+
+/* @media (min-width:778px) and (max-width:1023px) {
+    .contact_us_cont {}
+} */
+
+@media (max-width: 625px) {
+    .contact_us_row {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .contact_heading {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    .contact_info {
+        margin-bottom: 0;
+    }
+    .contact_div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 420px) {
+    .contact_info {
+        font-size: x-small;
+    }
+}
+
+@media (min-width: 337px) and (max-width: 575px) {
+    .contact_us_row {
+        margin: 0 16% !important;
+    }
 }

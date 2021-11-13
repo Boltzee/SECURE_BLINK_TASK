@@ -8,8 +8,8 @@ function Homepage() {
         <div>
             <Container>
                 <Section1 />
-                <Contact_us />
             </Container>
+            <Contact_us />
         </div>
     );
 }

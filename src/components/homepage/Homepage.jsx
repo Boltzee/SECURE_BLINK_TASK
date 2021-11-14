@@ -15,7 +15,6 @@ function Homepage() {
             <Container>
                 <Courses />
                 <Students />
-                <Section1 />
             </Container>
             <Workings />
             <Container>

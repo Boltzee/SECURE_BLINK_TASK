@@ -1,5 +1,5 @@
 .main_header {
-    margin-bottom: 2.5rem;
+    margin-bottom: 3rem;
 }
 
 .span_contact {
@@ -14,4 +14,12 @@
 
 .cont {
     padding: 0 1rem;
+}
+
+.income {
+    padding: 0.5rem;
+    padding-left: 0.3rem;
+    margin-top: 0.5rem;
+    font-weight: bold;
+    border-left: 4px solid #01cb63;
 }

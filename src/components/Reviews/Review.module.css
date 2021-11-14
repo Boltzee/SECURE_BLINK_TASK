@@ -1,0 +1,53 @@
+.main_header {
+    margin-bottom: 2.5rem;
+}
+
+.span_contact {
+    font-size: small;
+    font-style: italic;
+    color: #01cb63;
+}
+.span_header {
+    color: #1f2532;
+    font-weight: bold;
+}
+
+.reviews_row {
+    padding: 0 3rem;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.img {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.comment_cont {
+    font-size: x-small;
+    box-shadow: 0px 20px 30px #1f25321a;
+    border-radius: 15px;
+    padding: 1.5rem;
+}
+
+.comment {
+    font-style: italic;
+    margin-bottom: 1.3rem;
+}
+
+.comment_col {
+    padding: 1rem;
+}
+
+.person_info {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.comment_info {
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,5 +1,4 @@
 import React from "react";
-import Section1 from "../section1/Section1";
 import Contact_us from "../contact_us/Contact_us";
 import Reviews from "../Reviews/Reviews";
 import Workings from "../diagram/Workings";

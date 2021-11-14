@@ -10,7 +10,9 @@ function Homepage() {
         <div>
             <Container>
                 <Section1 />
-                <Workings />
+            </Container>
+            <Workings />
+            <Container>
                 <Reviews />
             </Container>
             <Contact_us />

@@ -129,6 +129,15 @@ function FormExample() {
 function Contact_us() {
     return (
         <>
+            <div className={Style.main_header}>
+                <span className={Style.span_contact}>Contact Us</span>
+                <br />
+                <h4 className={Style.span_header}>
+                    React Out With Any
+                    <br />
+                    Question You Have
+                </h4>
+            </div>
             <Container fluid={true} className={`mb-3 ${Style.contact_us_cont}`}>
                 <Row className={Style.contact_us_row}>
                     <div className={`col-sm-5 ${Style.contact_div}`}>

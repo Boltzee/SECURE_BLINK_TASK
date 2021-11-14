@@ -1,0 +1,52 @@
+.main_header {
+    margin-bottom: 2.5rem;
+    text-align: center;
+}
+
+.span_contact {
+    font-size: small;
+    font-style: italic;
+    color: #01cb63;
+}
+.span_header {
+    color: #1f2532;
+    font-weight: bold;
+}
+
+.card {
+    margin: 1rem !important;
+    border: 1px solid #e6e6e6 !important;
+    border-radius: 15px !important;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.img {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.person_info {
+    display: flex;
+    align-items: center;
+    font-size: small;
+    justify-content: flex-start;
+}
+
+.pos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.course_info {
+    font-size: x-small;
+    color: gray;
+}
+
+.fix {
+    display: flex !important;
+    justify-content: space-between !important;
+}

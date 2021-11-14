@@ -5,12 +5,16 @@ import Reviews from "../Reviews/Reviews";
 import Workings from "../diagram/Workings";
 import { Container } from "react-bootstrap";
 import Jumbotron from "../jumbotron/Jumbotron";
+import Courses from "../Courses/Courses";
+import Students from "../Students/Students";
 
 function Homepage() {
     return (
         <div>
             <Jumbotron />
             <Container>
+                <Courses />
+                <Students />
                 <Section1 />
             </Container>
             <Workings />

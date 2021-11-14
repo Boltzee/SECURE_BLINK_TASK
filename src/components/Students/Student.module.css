@@ -1,0 +1,17 @@
+.main_header {
+    margin-bottom: 2.5rem;
+}
+
+.span_contact {
+    font-size: small;
+    font-style: italic;
+    color: #01cb63;
+}
+.span_header {
+    color: #1f2532;
+    font-weight: bold;
+}
+
+.cont {
+    padding: 0 1rem;
+}

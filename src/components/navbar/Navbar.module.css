@@ -1,5 +1,7 @@
 .main_navbar {
     display: flex;
+    padding: 0.3rem !important;
+    background-color: white;
 }
 
 .n2 {

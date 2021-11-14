@@ -1,3 +1,18 @@
+.main_header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.span_contact {
+    font-size: small;
+    font-style: italic;
+    color: #01cb63;
+}
+.span_header {
+    color: #1f2532;
+    font-weight: bold;
+}
+
 .form_submit {
     border-radius: 0.5rem;
     width: 33%;
